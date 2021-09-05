@@ -1,0 +1,122 @@
+#photo{
+    height: 100px;
+    width: 100px;
+}
+body {
+    background-color:rgb(191, 213, 221);
+}
+*, body {
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+nav {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    box-shadow: -1px -7px 20px 0px #888;
+}
+nav ul{
+    position: relative;
+    top: 20px;
+    margin: 0;
+    float: right;
+    right: 5%;
+}
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px
+}
+nav ul li a{
+    text-decoration: none;
+    color: #888;
+    font-family: "Helvetica",sans-serif;
+    font-size: 14px;
+}
+nav ul li a :hover{
+    color: #55a8fd;
+}
+.menu-mobile{
+    position: relative;
+    float: right;
+    display: none;
+}
+.menu-mobile a{
+    color: #888;
+    font-size: 14px;
+    text-transform: upparcase;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #888;
+}
+/* Profile Section */
+
+section#box-profile{
+    position: relative;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 136, 136, 136);
+}
+#box-profile .img-profile{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: left;
+    top: 25px;
+    margin-left: 40px;
+}
+.img-profile .photo{
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -0px;
+    border-radius: 300px;
+}
+.description{
+    position: relative;
+    width: 400px;
+    display: inline-block;
+    float: left;
+    top: 50px;
+    margin-left: 30px;
+    font-family: 'helvetica', sans-serif;
+    border-right: 1px solid #efefef;
+}
+.description h1{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+.description p{
+    color: #888;
+}
+
+.information{
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-family: 'helvetica', sans-serif;
+    top: 45px;
+    margin-left: 30px;
+}
+.information .data{
+    display: block;
+    width: 100%;
+    height: 36;
+}
+.information p.field{
+    font-weight: 600;
+    width: 150px;
+    color: #333;
+}
+.information .data p{
+    float: left;
+}
